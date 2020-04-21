@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES2019",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./build",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "lib": ["es6", "dom", "ES2017"],
+    "typeRoots": ["typings"],
+    "paths": {
+      "sse4_crc32": ["typings/sse4_crc32.d.ts"]
+    }
+  },
+  "include": ["./index.ts"]
+}
